@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="giantbing.zonlinks.com.ipcmessenger">
+
+    <application
+        android:allowBackup="true"
+        android:label="@string/app_name"
+        android:supportsRtl="true">
+        <activity android:name=".Activity.MensengerActivity" />
+
+        <service
+            android:name=".Service.MessengerService"
+            android:enabled="true"
+            android:exported="true"
+            android:process=":remote"/>
+    </application>
+
+</manifest>

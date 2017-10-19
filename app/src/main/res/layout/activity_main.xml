@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="giantbing.zonlinks.com.androidpractice.MainActivity">
+
+    <TextView
+        android:id="@+id/main_ipcmessenger"
+        android:layout_width="60dp"
+        android:layout_height="60dp"
+        android:text="IPCmessenger"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        android:layout_marginTop="16dp"
+        android:layout_marginLeft="16dp"
+        android:gravity="center"
+        android:textColor="#ffffff"
+        android:background="#f34343"/>
+
+</android.support.constraint.ConstraintLayout>
